@@ -3,6 +3,9 @@ import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import VueSocketIO from 'vue-socket.io'
+import VueYoutube from 'vue-youtube'
+ 
+Vue.use(VueYoutube)
 Vue.config.productionTip = true
 
 Vue.use(new VueSocketIO({
